@@ -46,9 +46,9 @@ class _ComicReaderScreenState extends State<ComicReaderScreen> {
       'icon': Icons.horizontal_rule_sharp,
       'art': _GrabadoArtBox(
         children: [
-          Positioned(bottom: 20, left: 50, child: Icon(Icons.home, size: 100)),
-          Positioned(top: 40, right: 40, child: Icon(Icons.waves, size: 80)),
-          Positioned(top: 80, left: 100, child: Icon(Icons.wb_sunny, size: 60)),
+          ArtPositioned(bottom: 20, left: 50, child: Icon(Icons.home, size: 100)),
+          ArtPositioned(top: 40, right: 40, child: Icon(Icons.waves, size: 80)),
+          ArtPositioned(top: 80, left: 100, child: Icon(Icons.wb_sunny, size: 60)),
         ],
       )
     },
@@ -58,9 +58,9 @@ class _ComicReaderScreenState extends State<ComicReaderScreen> {
       'icon': Icons.account_circle,
       'art': _GrabadoArtBox(
         children: [
-          Positioned(bottom: 10, left: 30, child: Icon(Icons.person, size: 120)),
-          Positioned(bottom: 10, right: 30, child: Icon(Icons.person_outline, size: 90)),
-          Positioned(top: 20, left: 80, child: Icon(Icons.star, size: 40)),
+          ArtPositioned(bottom: 10, left: 30, child: Icon(Icons.person, size: 120)),
+          ArtPositioned(bottom: 10, right: 30, child: Icon(Icons.person_outline, size: 90)),
+          ArtPositioned(top: 20, left: 80, child: Icon(Icons.star, size: 40)),
         ],
       )
     },
@@ -70,9 +70,9 @@ class _ComicReaderScreenState extends State<ComicReaderScreen> {
       'icon': Icons.auto_awesome,
       'art': _GrabadoArtBox(
         children: [
-          Positioned(center: true, child: Icon(Icons.cyclone, size: 150)),
-          Positioned(top: 10, left: 10, child: Icon(Icons.blur_on, size: 60)),
-          Positioned(bottom: 10, right: 10, child: Icon(Icons.blur_on, size: 60)),
+          ArtPositioned(center: true, child: Icon(Icons.cyclone, size: 150)),
+          ArtPositioned(top: 10, left: 10, child: Icon(Icons.blur_on, size: 60)),
+          ArtPositioned(bottom: 10, right: 10, child: Icon(Icons.blur_on, size: 60)),
         ],
       )
     },
@@ -82,9 +82,9 @@ class _ComicReaderScreenState extends State<ComicReaderScreen> {
       'icon': Icons.park,
       'art': _GrabadoArtBox(
         children: [
-          Positioned(bottom: 0, left: 20, child: Icon(Icons.nature, size: 140)),
-          Positioned(bottom: 0, right: 20, child: Icon(Icons.nature_people, size: 100)),
-          Positioned(top: 20, center: true, child: Icon(Icons.menu_book, size: 50)),
+          ArtPositioned(bottom: 0, left: 20, child: Icon(Icons.nature, size: 140)),
+          ArtPositioned(bottom: 0, right: 20, child: Icon(Icons.nature_people, size: 100)),
+          ArtPositioned(top: 20, center: true, child: Icon(Icons.menu_book, size: 50)),
         ],
       )
     },
@@ -94,9 +94,9 @@ class _ComicReaderScreenState extends State<ComicReaderScreen> {
       'icon': Icons.broken_image,
       'art': _GrabadoArtBox(
         children: [
-          Positioned(center: true, child: Icon(Icons.local_florist, size: 120, color: Colors.black54)),
-          Positioned(top: 40, left: 40, child: Icon(Icons.eco, size: 60)),
-          Positioned(bottom: 40, right: 40, child: Icon(Icons.eco_outlined, size: 60)),
+          ArtPositioned(center: true, child: Icon(Icons.local_florist, size: 120, color: Colors.black54)),
+          ArtPositioned(top: 40, left: 40, child: Icon(Icons.eco, size: 60)),
+          ArtPositioned(bottom: 40, right: 40, child: Icon(Icons.eco_outlined, size: 60)),
         ],
       )
     },
@@ -106,22 +106,22 @@ class _ComicReaderScreenState extends State<ComicReaderScreen> {
       'icon': Icons.agriculture,
       'art': _GrabadoArtBox(
         children: [
-          Positioned(bottom: 10, left: 10, child: Icon(Icons.grass, size: 80)),
-          Positioned(bottom: 10, right: 10, child: Icon(Icons.grass, size: 80)),
-          Positioned(bottom: 10, center: true, child: Icon(Icons.local_florist, size: 110)),
-          Positioned(top: 20, center: true, child: Icon(Icons.wb_sunny, size: 70)),
+          ArtPositioned(bottom: 10, left: 10, child: Icon(Icons.grass, size: 80)),
+          ArtPositioned(bottom: 10, right: 10, child: Icon(Icons.grass, size: 80)),
+          ArtPositioned(bottom: 10, center: true, child: Icon(Icons.local_florist, size: 110)),
+          ArtPositioned(top: 20, center: true, child: Icon(Icons.wb_sunny, size: 70)),
         ],
       )
     },
     {
       'title': 'El Puente',
       'text': 'El día que terminaron, Samuel se sentó en el jardín con el sombrero. Sintió que el abuelo estaba allí, sonriendo con orgullo.\n—Abuelo, lo hemos logrado —susurró.\nY juraría haber escuchado su risa entre las hojas.',
-      'icon': Icons.bridge,
+      'icon': Icons.architecture,
       'art': _GrabadoArtBox(
         children: [
-          Positioned(bottom: 20, center: true, child: Icon(Icons.nature, size: 160)),
-          Positioned(top: 30, right: 30, child: Icon(Icons.air, size: 80)),
-          Positioned(bottom: 40, left: 40, child: Icon(Icons.person, size: 60)),
+          ArtPositioned(bottom: 20, center: true, child: Icon(Icons.nature, size: 160)),
+          ArtPositioned(top: 30, right: 30, child: Icon(Icons.air, size: 80)),
+          ArtPositioned(bottom: 40, left: 40, child: Icon(Icons.person, size: 60)),
         ],
       )
     },
@@ -131,9 +131,9 @@ class _ComicReaderScreenState extends State<ComicReaderScreen> {
       'icon': Icons.local_fire_department,
       'art': _GrabadoArtBox(
         children: [
-          Positioned(center: true, child: Icon(Icons.all_inclusive, size: 150)),
-          Positioned(top: 20, left: 20, child: Icon(Icons.favorite, size: 50)),
-          Positioned(bottom: 20, right: 20, child: Icon(Icons.favorite, size: 50)),
+          ArtPositioned(center: true, child: Icon(Icons.all_inclusive, size: 150)),
+          ArtPositioned(top: 20, left: 20, child: Icon(Icons.favorite, size: 50)),
+          ArtPositioned(bottom: 20, right: 20, child: Icon(Icons.favorite, size: 50)),
         ],
       )
     },
@@ -289,7 +289,7 @@ class _GrabadoArtBox extends StatelessWidget {
   }
 }
 
-class Positioned extends StatelessWidget {
+class ArtPositioned extends StatelessWidget {
   final double? top;
   final double? bottom;
   final double? left;
@@ -297,7 +297,7 @@ class Positioned extends StatelessWidget {
   final bool center;
   final Widget child;
 
-  const Positioned({
+  const ArtPositioned({
     super.key,
     this.top,
     this.bottom,
@@ -314,7 +314,7 @@ class Positioned extends StatelessWidget {
     }
     return Stack(
       children: [
-        flutterPositioned(
+        flutterArtPositioned(
           top: top,
           bottom: bottom,
           left: left,
@@ -325,7 +325,7 @@ class Positioned extends StatelessWidget {
     );
   }
 
-  Widget flutterPositioned({double? top, double? bottom, double? left, double? right, required Widget child}) {
+  Widget flutterArtPositioned({double? top, double? bottom, double? left, double? right, required Widget child}) {
     return PositionedWidget(
       top: top,
       bottom: bottom,
